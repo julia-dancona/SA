@@ -1,0 +1,95 @@
+body{
+    align-items: center;
+    background-image:url("Imagens/backgroud.png");
+    background-size: contain;
+}
+
+.cadastroOpcoes{
+    background-color: #f8e5e5;
+    width: 20%;
+    height: 45%;
+    border-radius: 15px;
+    border: #8C0444,solid,2px;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
+    padding: 2%; 
+    color: #8C0444; 
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding-bottom: 5%; 
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+.form-grupo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px; 
+}
+
+label{
+    width: 50px;
+    height: 10px;
+    font-size: larger;
+}
+
+
+.botao{
+    font-size: larger;
+    display: flex;
+    width: 41%;
+    border-radius: 15px; 
+    margin: auto;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 2%; 
+    cursor: pointer;
+}
+
+button#entrarL,#voltarL{
+    background-color: #8c0335c9;
+    height: 10%;
+    justify-content: center;
+    width: 10%;
+    border: 1px solid #8C0444; 
+    border-radius: 15%; 
+    display: flex;
+    font-family:"Simonetta", serif; color: white;
+    cursor: pointer;
+}
+
+button#semCadastro{ 
+    border: 1px solid #8C0444; 
+    text-align:center ;
+    background-color: #8C0444;
+    font-size: 17px;
+    font-family: "Simonetta", serif;
+    color: #fff;
+    height: 25px;
+    cursor: pointer;
+}
+
+.semCadastro{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.inputTexto{
+    margin-left: 40px;
+    outline: none;
+    border-radius: 40px;
+    width: 180px;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid #8C0444; 
+}

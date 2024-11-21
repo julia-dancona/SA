@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login ADM</title>
+    <link rel="shortcut icon" href="Imagens/LogoIcon.png">
+    
+    <link rel="stylesheet" href="loginADM.css">
+    <script src="script.js"> </script>
+
+</head>
+<body>
+    
+    <div id="topoTitulo">
+        <img src="Imagens/LogoLotus.png" alt="Logo">
+    </div>
+
+    <div class="fundoQuadrado">
+    <div class="cadastroOpcoes"> 
+        <div class="form-grupo">
+            <label class="label"> Email: </label> 
+            <input type="email" id="email" placeholder="Digite seu email" class="inputTexto">
+        </div>
+
+        <div class="form-grupo">
+            <label class="label"> Senha: </label> 
+            <input type="password" id="senha" placeholder="Digite sua senha" class="inputTexto">
+        </div>
+    </div>
+
+    <div class="form-grupo">
+        <label class="label"> Cargo: </label> 
+       <select class="inputTexto input-cargo" name="cargo" id="cargo">
+        
+            <option value=""> Selecione </option>
+            <option value="administrador"> Administrador </option>
+            <option value="gerenteDeEstoque"> Gerente de Estoque </option>
+            <option value="gerente" > Gerente </option>
+            <option value="estagiario"> Estagiário </option>
+
+       </select>
+    </div>
+    </div>
+            
+    <div class="botao">
+        <button id="voltarADM" onclick="voltarADM()"><p>Voltar</p></button>
+        <button id="continuarADM" onclick="ContinuarADM()"><p>Continuar</p></button>
+    </div>
+     
+</body>
+</html>

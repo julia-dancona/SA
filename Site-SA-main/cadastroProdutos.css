@@ -1,0 +1,64 @@
+body{
+    background-image: url(Imagens/backgroud.png);
+    background-size: 75%;
+    align-items: center;
+    font-family: "Simonetta", serif;
+}
+
+.caixa{
+    background-color: #f8e5e5;
+    width: 35%;
+    height: 45%;
+    border-radius: 15px;
+    color: #8C0444;
+    border: #8C0444,solid,2px;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
+    padding: 2%;
+    justify-items: center;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%; 
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+form{
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 300px;
+}
+button{
+    margin: 5px;
+    height: 40px;
+    background-color: #8c033581 ;
+    color: #8C0335;
+    border-radius: 20px 20px 20px;
+    border: 2px solid #8C0444; 
+}
+
+#produtos{
+    background-color: #f8e5e5 ;
+    border: 2px solid #8C0335;
+    border-radius: 3%;
+    padding-top: 5%;
+    width: 35%;
+    height: 45%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: center;
+    padding: 2%;
+    justify-items: center;
+    color: #8C0444;
+}

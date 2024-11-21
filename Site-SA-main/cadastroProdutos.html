@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="shortcut icon" href="Imagens/LogoIcon.png">
+
+    <link rel="stylesheet" href="cadastroProdutos.css">
+    <script src="cadastroProdutos.js"></script>
+    <link rel="styleseet" href="telaPrincipal.css">
+
+</head>
+<body>
+
+    <img src="Imagens/LogoLotus.png" alt="">
+    
+    <div class="caixa">
+        <h1>Cadastro de Produto</h1>
+        <input type="text" id="nome" placeholder="Nome do Produto" required>
+        <input type="text" id="descricao" placeholder="Descrição do Produto" required>
+        <input type="number" id="preco" placeholder="Preço do Produto" required>
+        <input type="text" class="imagemCardapio" id="urlImage"placeholder="URL da imagem do Produto" required>
+        <button type="button" onclick="cadastrarProduto()">Cadastrar Produto</button>
+        <button type="button" onclick="voltar()">Voltar</button>
+    </div>
+
+    <div id="produtos">
+        <h2>Produtos Cadastrados</h2>
+        <button onclick="limparProdutos()">Limpar lista</button> 
+        <ul id="listaProdutos"></ul>
+        
+    </div>
+    
+</body>
+</html>

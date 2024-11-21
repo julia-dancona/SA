@@ -1,0 +1,81 @@
+.simonetta-regular {
+    font-family: "Simonetta", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url("Imagens/backgroud.png");
+    background-position: center;
+    background-size: contain
+}
+.fundoQuadrado{
+    background-color: #f8e5e5;
+    width: 20%;
+    height: 45%;
+    border-radius: 15px;
+    border: #8C0444,solid,2px;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
+    padding: 2%; 
+    color: #8C0444; 
+}
+ 
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 15%;
+    padding-bottom: 5%;
+} 
+
+.form-grupo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px; 
+}
+
+.label{
+    width: 50px;
+    height: 10px;
+    font-size: larger;
+}
+
+.inputTexto{
+    margin-left: 40px;
+    outline: none;
+    border-radius: 40px;
+    width: 180px;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid #8C0444; 
+}
+
+.botao{
+    font-size: larger;
+    display: flex;
+    width: 41%;
+    border-radius: 15px; 
+    margin: auto;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 2%; 
+    cursor: pointer;
+}
+
+button#continuarADM,#voltarADM{
+    background-color: #8c0335c9;
+    height: 10%;
+    justify-content: center;
+    width: 13%;
+    border: 1px solid #8C0444; 
+    border-radius: 17%; 
+    display: flex;
+    font-family:"Simonetta", serif; color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,175 @@
+body{
+    background-image: url("Imagens/backgroud.png");
+    background-size: contain;
+}
+
+.caixaCadastro{
+    background-color: #f8e5e5;
+    width: 45%;
+    height: 45%;
+    border-radius: 15px;
+    border: solid 2px #8C0444;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
+    padding: 2%; 
+    color: #8C0444; 
+}
+
+.cadastroTexto{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: x-large;
+}
+
+hr{
+    border: #8C0444 1px solid;
+    border-radius: 20%;
+} 
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.simonetta-regular {
+    font-family: "Simonetta", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%; 
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+
+.form-grupo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px; 
+}
+
+.label{
+    width: 50px;
+    height: 10px;
+    font-size: larger;
+}
+
+.inputTexto{
+    margin-left: 40px;
+    outline: none;
+    border-radius: 40px;
+    width: 180px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #8C0444; 
+}
+
+
+.termos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+button{
+    width: 14%;
+    background-color: rgba(140, 3, 53, 0.699);
+    color: white;
+    border-radius: 20px 20px 20px;
+    border: 1px solid #8C0444; 
+    cursor: pointer;
+}
+
+.botao{
+    font-size: larger;
+    width: 82%;
+    display: flex;
+    height: 45%;
+    border-radius: 15px; 
+    margin: auto;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 2%; 
+
+}
+
+.container{
+    background-color: red;
+    width: 100%;
+}
+
+/* MODAL CSS */
+#botaoabrir{
+    background-color: rgba(228, 130, 203, 0.403);
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000; 
+}
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    z-index: 1001;
+    max-width: 500px;
+    width: 90%;
+}
+
+#modal-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+.sumir{
+    display: none;
+}
+
+#botaofechar {
+    margin-top: 10px;
+    background-color:rgba(228, 130, 203, 0.403);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#modal-content.modal-content{
+    display: flex;
+    flex-wrap: wrap
+}

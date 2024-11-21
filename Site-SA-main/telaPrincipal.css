@@ -1,0 +1,257 @@
+.simonetta-regular {
+    font-family: "Simonetta", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(Imagens/backgroud-body.png);
+    background-position: initial;
+    background-size:cover;
+    height: 100vh;
+}
+
+.Rodape{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 50%;
+}
+
+#Estoque, #loginIcon{
+  cursor: pointer;
+  width: 3.5%;
+  margin: 0.5%;
+}
+
+.icone{
+    display: flex;
+    justify-content: end;
+    margin-right: 1%;
+}
+
+.BordaQuadrado{
+    height:800px;
+    width:80%;
+    border-radius: 15px;
+    margin: auto;
+    align-content: space-between;
+    padding: 2%; 
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.QuemSomos{
+    font-size: x-large;
+    font-family: "Simonetta", serif;
+    width: 30%;
+    display: flex;
+    padding-left: 5.5%;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+
+#Doce{
+    max-width: 100%;
+    width: 800px;
+    height: 400px; 
+    border-bottom: #8C0444;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+.imagemCardapio{
+    width: 50%;
+    height: 70%;
+    border-radius: 5%;
+}
+
+.cardapio-cafe{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.cardapio-cafe2{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: -5%;
+}
+
+.cardapio-cafe3{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: -5%;
+}
+
+.cardapio-cafe4{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: -5%;
+}
+
+ul#listaProdutos{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+li.produto-item{
+    text-align: center;
+}
+
+.caixaProdutos{
+    flex-direction: column;
+    margin: 1%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 1%;
+    padding-top: 0.5;
+    width: 20%;
+    border-radius: 2%;
+}
+
+.caixaProdutos:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+li.produto-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bannerL{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: -5%;
+    width: 45%;  
+}
+
+.lojas img{
+    height: 15%;
+    width: 35%;
+    padding: 1%;
+}
+
+.lojas{
+    display: flex;
+    padding-left: 5.5%;
+    flex-wrap: wrap;
+}
+
+.descricao{
+    font-size: x-large;
+    font-family: "Simonetta", serif;
+    width: 52%;
+    margin-left: 40%;
+    margin-top: -28%;
+    text-align: justify;
+}
+
+.Doce{
+    display: flex;
+    flex-direction: row;
+    width: 30%; 
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 20%;
+}
+
+img{
+    border-radius: 10%;
+}
+
+img#tituloCardapio{
+    width: 20%;
+}
+
+.caixaTituloCardapio{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+#produtos{
+    padding-top: 5%;
+    width: 35%;
+    height: 45%;
+    margin: auto;
+    margin-top: 22%;
+    justify-content: center;
+    padding: 2%;
+    justify-items: center;
+    color: #8C0444;
+}
+
+.cardapio-cafe{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#listaProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 0;
+}
+
+.produto-item {
+    flex-direction: column;
+    margin: 1%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 1%;
+    padding-top: 0.5;
+    width: 20%;
+    border-radius: 2%;
+}
+
+.produto-img{
+    width: 50%;
+    height: 70%;
+    border-radius: 5%;
+}
